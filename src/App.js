@@ -9,14 +9,15 @@ import "./App.css";
 import CommentSection from "./components/CommentSection/CommentSectionContainer.js";
 // import the  PostsPage and SearchBar and add them to the App
 
-import Post from "./components/PostsContainer/Post.js";
+import PostsPage from "./components/PostsContainer/PostsPage";
 import SearchBar from "./components/SearchBar/SearchBarContainer";
 
 const App = () => {
-
   return (
     <div className="App">
-      {Post,CommentSection,SearchBar}
+      
+      <SearchBar/>
+      <PostsPage />
     </div>
   );
 };
